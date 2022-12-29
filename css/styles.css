@@ -1,0 +1,248 @@
+body {
+    font-family: 'Montserrat';
+    margin-bottom: 0;
+    padding: 0;
+
+}
+h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat-black', sans-serif;
+
+}
+
+
+p {
+    color: #8f8f8f;
+}
+
+/* color section */
+.color-section{
+    background-color: #ff4c6f;
+
+
+}
+
+.white-section {
+    background-color: white;
+
+
+}
+
+
+
+
+/* title section */
+#title {
+   
+
+}
+.Title-head{ font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+
+    color: white;
+
+}
+.navbar-brand {
+    font-family: ubuntu;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 8px;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-family: 'Montserrat';
+}
+
+
+
+
+.container-fluid {
+    padding: 3% 15%;
+
+}
+
+.download {
+    margin: 25px 5px;
+
+
+}
+
+
+.iphone {
+    width: 60%;
+
+    transform: rotate(20deg);
+    position: relative;
+    top: 150px;
+    left: 85px;
+
+}
+
+@media (max-width:992px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .iphone {
+        transform: none;
+        position: static;
+        width: 300px;
+        margin-top: 2rem;
+    }
+}
+
+/* feature */
+#features {
+    padding: 7% 11%;
+    
+    position: relative;
+    z-index: 1;
+
+}
+.feature-text { font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+.checkcircle {
+    color: #ff4c6f;
+    margin-bottom: 1rem;
+}
+
+.checkcircle:hover {
+    color: #8d172e;
+}
+
+
+
+
+.colfeature {
+
+    text-align: center;
+
+    padding: 5%;
+}
+
+/* testimonial section */
+#testimonials {
+
+    text-align: center;
+    background-color: #ef7172;
+    color: #fff;
+}
+.Testimonial-head{ font-size: 2.5rem;
+    line-height: 1.5;
+
+}
+
+
+.testimonial-img {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-inner {
+    padding: 8% 18%;
+}
+
+/* press section */
+
+#press {
+    background-color: #ef7172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 30px 14px 0;
+}
+
+/* prcing section */
+#pricing {
+    text-align: center;
+    padding: 5% 15%;
+}
+.pricing-text {font-size: 2.5rem;
+    line-height: 1.5;
+
+}
+.class-header{
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+/* call to action */
+
+
+#cta {
+   
+    text-align: center;
+    padding: 0 20%;
+    
+}
+
+.cta-h3 {
+
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+    padding-top: 4%;
+    line-height: 1.5;
+}
+
+.down-download {
+    padding: 6% 0 10% 0;
+}
+
+.botdownload {
+    color: white;
+    background-color: #0d0d0d;
+    margin-right: 10px;
+
+}
+
+.botdownloadlast {
+    background-color: white;
+    color: #0d0d0d;
+
+}
+
+/* footer */
+
+#footer {
+  
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.logo {
+    position: relative;
+    top: 45px;
+}
+
+.log-link {
+    padding: 30px 5px;
+}
+
+
+
+
+/* 
+hr {
+    border: 5px dotted;
+   border-bottom: 0;
+   width: 65px;
+   margin: auto;
+   color: crimson;
+} */
